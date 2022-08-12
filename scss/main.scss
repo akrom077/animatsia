@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: red;
+}
+
+.one {
+  width: 60px;
+  height: 60px;
+  background-color: dodgerblue;
+  border-radius: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 78px;
+  left: 65px;
+  animation: one 10s infinite;
+}
+
+@keyframes one {
+  0% {
+      top: 78px;
+      left: 65px;
+  }
+
+  10% {
+      top: 78px;
+      left: 335px;
+  }
+
+  20% {
+      top: 370px;
+      left: 335px;
+  }
+
+  30% {
+      top: 370px;
+      left: 1000px;
+  }
+
+  40% {
+      top: 520px;
+      left: 1000px;
+  }
+
+  50% {
+      top: 520px;
+      left: 620px;
+  }
+
+  60% {
+      top: 465px;
+      left: 620px;
+  }
+
+  70% {
+      top: 465px;
+      left: 335px;
+  }
+
+  80% {
+      top: 345px;
+      left: 180px;
+  }
+
+  90% {
+      top: 345px;
+      left: 65px;
+  }
+
+  100% {
+      top: 78px;
+      left: 65px;
+  }
+}
